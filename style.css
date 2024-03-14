@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Sora;
+    font-family: Sora, sans-serif;
 }
 body{
     display: flex;
@@ -20,7 +20,7 @@ body{
 img{
     padding: 16px 16px 0 16px;
     height: 152px;
-    width: 336px;
+    width: 100%;
 }
 .tag{
     margin: 16px 0 0 16px;
@@ -48,7 +48,8 @@ img{
     font-size: 0.75rem;
 }
 .smalltext{
-    padding: 25px 0 20px 16px;
+    padding: 25px 0 10px 16px;
     color: #6C727F;
     font-size: .75rem;
+    line-height: 1.2;
 }
